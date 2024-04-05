@@ -35,6 +35,7 @@ class _ExpencesState extends State<Expences> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+       backgroundColor: Colors.blue,
       appBar: AppBar(
         title:const Text("Expences Cheker"),
         backgroundColor: Color.fromARGB(255, 86, 186, 186),
