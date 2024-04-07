@@ -16,7 +16,8 @@ class _ExpencesState extends State<Expences> {
  final List <ExpenceModel> _expenceList =  [
   ExpenceModel(amount: 12.5, date: DateTime.now(), title: "Cricket", category: Category.leasure),
   ExpenceModel(amount: 10, date: DateTime.now(), title: "pizza", category: Category.food),
-  ExpenceModel(amount: 25, date: DateTime.now(), title: "Bag", category: Category.travel)
+  ExpenceModel(amount: 25, date: DateTime.now(), title: "Bag", category: Category.travel),
+  ExpenceModel(amount: 25, date: DateTime.now(), title: "cake", category: Category.food)
  ] ;
  
 

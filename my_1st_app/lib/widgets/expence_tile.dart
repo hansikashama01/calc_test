@@ -14,6 +14,7 @@ final ExpenceModel expence;
                     padding: const EdgeInsets.symmetric(
                       vertical: 16, 
                       horizontal: 20,
+                      
                     ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -23,7 +24,7 @@ final ExpenceModel expence;
                       style: Theme.of(context).textTheme.titleLarge,
                       ),
                       const SizedBox(
-                        height: 4,
+                        height: 10,
                         ),
                       Row(
                         children: [Text(
