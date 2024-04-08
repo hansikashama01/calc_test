@@ -9,12 +9,12 @@ final ExpenceModel expence;
   @override
   Widget build(BuildContext context) {
     return   Card(
-                  color: Color.fromARGB(255, 196, 196, 196),
+                  color: const Color.fromARGB(255, 29, 246, 141),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                       vertical: 16, 
                       horizontal: 20,
-                      
+                    
                     ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,

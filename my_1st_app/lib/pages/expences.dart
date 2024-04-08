@@ -36,15 +36,22 @@ class _ExpencesState extends State<Expences> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       backgroundColor: Colors.blue,
+       backgroundColor: Color.fromARGB(255, 14, 3, 29),
       appBar: AppBar(
+        
         title:const Text("Expences Cheker"),
-        backgroundColor: Color.fromARGB(255, 86, 186, 186),
+        backgroundColor: Color.fromARGB(255, 196, 211, 211),
         actions: [
         Container(
-          color: Color.fromARGB(255, 204, 251, 17),
+           decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(50),
+          
+          
+          color: Color.fromARGB(255, 204, 251, 17),),
+       
           child: IconButton(
             onPressed:_openAddExpencesOverlay,
+            
            icon: Icon(
             Icons.add,
             color: Color.fromARGB(255, 21, 28, 3),
